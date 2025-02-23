@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle issue in TypeScript: type coercion leading to runtime errors.  The `bug.ts` file shows a function expecting a number, but a string is passed. TypeScript's type system doesn't catch this, resulting in a runtime error. The `bugSolution.ts` provides a solution using type guards.
